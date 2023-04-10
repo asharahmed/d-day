@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f12ee86376aeae2390008e6c61f05550 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f12ee86376aeae2390008e6c61f05550" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f12ee86376aeae2390008e6c61f05550 = L.map(
+                "map_f12ee86376aeae2390008e6c61f05550",
+                {
+                    center: [49.275, -0.706],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c7e08a92150b84178b9cf5858d00e7e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f12ee86376aeae2390008e6c61f05550);
+        
+    
+            var marker_210a30319ad5d13800746634e800677c = L.marker(
+                [49.372, -0.905],
+                {}
+            ).addTo(map_f12ee86376aeae2390008e6c61f05550);
+        
+    
+            var icon_9721b172856492691558629bb75f8d02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_210a30319ad5d13800746634e800677c.setIcon(icon_9721b172856492691558629bb75f8d02);
+        
+    
+        var popup_1ce8bc5a55543508a590458e64ac33ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4282ad30bda636be7577d24cb1b365e = $(`<div id="html_f4282ad30bda636be7577d24cb1b365e" style="width: 100.0%; height: 100.0%;">Omaha Beach</div>`)[0];
+                popup_1ce8bc5a55543508a590458e64ac33ad.setContent(html_f4282ad30bda636be7577d24cb1b365e);
+            
+        
+
+        marker_210a30319ad5d13800746634e800677c.bindPopup(popup_1ce8bc5a55543508a590458e64ac33ad)
+        ;
+
+        
+    
+    
+            var marker_6ee6ab02d1e8211f690d5edc13394d7b = L.marker(
+                [49.342, -0.607],
+                {}
+            ).addTo(map_f12ee86376aeae2390008e6c61f05550);
+        
+    
+            var icon_7a79caf9de1b341f93caa94c2ccbd58b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ee6ab02d1e8211f690d5edc13394d7b.setIcon(icon_7a79caf9de1b341f93caa94c2ccbd58b);
+        
+    
+        var popup_816ace506d27fd100b871ed2c0b00bf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b525399771d0a01f8c0155c9c23b4ad1 = $(`<div id="html_b525399771d0a01f8c0155c9c23b4ad1" style="width: 100.0%; height: 100.0%;">Gold Beach</div>`)[0];
+                popup_816ace506d27fd100b871ed2c0b00bf8.setContent(html_b525399771d0a01f8c0155c9c23b4ad1);
+            
+        
+
+        marker_6ee6ab02d1e8211f690d5edc13394d7b.bindPopup(popup_816ace506d27fd100b871ed2c0b00bf8)
+        ;
+
+        
+    
+    
+            var marker_5826e0ed0a946176e324e99e959a5547 = L.marker(
+                [49.365, -0.562],
+                {}
+            ).addTo(map_f12ee86376aeae2390008e6c61f05550);
+        
+    
+            var icon_ed8a5fc9e3b1f4d6aaba66a3e243fc33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5826e0ed0a946176e324e99e959a5547.setIcon(icon_ed8a5fc9e3b1f4d6aaba66a3e243fc33);
+        
+    
+        var popup_0d46f5c0dca383ebcc908de48bd68db3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e02dde040a70cd72f51de9ae9314762 = $(`<div id="html_1e02dde040a70cd72f51de9ae9314762" style="width: 100.0%; height: 100.0%;">Juno Beach</div>`)[0];
+                popup_0d46f5c0dca383ebcc908de48bd68db3.setContent(html_1e02dde040a70cd72f51de9ae9314762);
+            
+        
+
+        marker_5826e0ed0a946176e324e99e959a5547.bindPopup(popup_0d46f5c0dca383ebcc908de48bd68db3)
+        ;
+
+        
+    
+    
+            var marker_627961efb6b8b474392e9ad900dd6313 = L.marker(
+                [49.325, -0.283],
+                {}
+            ).addTo(map_f12ee86376aeae2390008e6c61f05550);
+        
+    
+            var icon_90304ca10553b9430a232a51574cffca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_627961efb6b8b474392e9ad900dd6313.setIcon(icon_90304ca10553b9430a232a51574cffca);
+        
+    
+        var popup_990848c64ba583971f81b89d2bf24683 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1387c142cd9b6e4106e47e3e7a753ee = $(`<div id="html_f1387c142cd9b6e4106e47e3e7a753ee" style="width: 100.0%; height: 100.0%;">Sword Beach</div>`)[0];
+                popup_990848c64ba583971f81b89d2bf24683.setContent(html_f1387c142cd9b6e4106e47e3e7a753ee);
+            
+        
+
+        marker_627961efb6b8b474392e9ad900dd6313.bindPopup(popup_990848c64ba583971f81b89d2bf24683)
+        ;
+
+        
+    
+    
+            var marker_0c3a8f3c4d2f061873efa72ff8dcca64 = L.marker(
+                [49.409, -1.247],
+                {}
+            ).addTo(map_f12ee86376aeae2390008e6c61f05550);
+        
+    
+            var icon_d4953d5338eb3596d625d4448dc57023 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0c3a8f3c4d2f061873efa72ff8dcca64.setIcon(icon_d4953d5338eb3596d625d4448dc57023);
+        
+    
+        var popup_98b736687dda753e20b5d9bdb9f1d0bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b0269a2b9b6e3abb87d5fc6bac35093 = $(`<div id="html_1b0269a2b9b6e3abb87d5fc6bac35093" style="width: 100.0%; height: 100.0%;">Utah Beach</div>`)[0];
+                popup_98b736687dda753e20b5d9bdb9f1d0bf.setContent(html_1b0269a2b9b6e3abb87d5fc6bac35093);
+            
+        
+
+        marker_0c3a8f3c4d2f061873efa72ff8dcca64.bindPopup(popup_98b736687dda753e20b5d9bdb9f1d0bf)
+        ;
+
+        
+    
+</script>
+</html>

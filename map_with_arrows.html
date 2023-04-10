@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb1c303c1cda3e7a2177df25720fbaa3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb1c303c1cda3e7a2177df25720fbaa3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb1c303c1cda3e7a2177df25720fbaa3 = L.map(
+                "map_bb1c303c1cda3e7a2177df25720fbaa3",
+                {
+                    center: [49.372, -0.905],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b4ce100d71921b30b8f12a376c43a815 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var marker_3372cfa7ae8dd7acc186f1786769effe = L.marker(
+                [49.372, -0.905],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_729a29fabb6d70be1e08a8afc0d89582 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3372cfa7ae8dd7acc186f1786769effe.setIcon(icon_729a29fabb6d70be1e08a8afc0d89582);
+        
+    
+        var popup_ac88bb2128e4a2c87e3bd397e836a3de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4a82112b5d85dbf4e143033f3e42050 = $(`<div id="html_a4a82112b5d85dbf4e143033f3e42050" style="width: 100.0%; height: 100.0%;">Omaha Beach</div>`)[0];
+                popup_ac88bb2128e4a2c87e3bd397e836a3de.setContent(html_a4a82112b5d85dbf4e143033f3e42050);
+            
+        
+
+        marker_3372cfa7ae8dd7acc186f1786769effe.bindPopup(popup_ac88bb2128e4a2c87e3bd397e836a3de)
+        ;
+
+        
+    
+    
+            var marker_147e26758add88f7e17914883cc6d258 = L.marker(
+                [49.342, -0.607],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_fdc26ed605d120f33845858c1e8f7c1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_147e26758add88f7e17914883cc6d258.setIcon(icon_fdc26ed605d120f33845858c1e8f7c1c);
+        
+    
+        var popup_9e4d4ae176be2fa63bd8e2b1eb7abac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14246a5f6a44c6ea158d8518006366cc = $(`<div id="html_14246a5f6a44c6ea158d8518006366cc" style="width: 100.0%; height: 100.0%;">Gold Beach</div>`)[0];
+                popup_9e4d4ae176be2fa63bd8e2b1eb7abac2.setContent(html_14246a5f6a44c6ea158d8518006366cc);
+            
+        
+
+        marker_147e26758add88f7e17914883cc6d258.bindPopup(popup_9e4d4ae176be2fa63bd8e2b1eb7abac2)
+        ;
+
+        
+    
+    
+            var marker_3790339aae5bca8d4f28fdafc13445d5 = L.marker(
+                [49.365, -0.562],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_cc1630eeb215df7318d52c9b7057eed7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3790339aae5bca8d4f28fdafc13445d5.setIcon(icon_cc1630eeb215df7318d52c9b7057eed7);
+        
+    
+        var popup_221cc5c7958cff73584f5e9a263c5586 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3acc6ace10ba03a38d19f877df8de99e = $(`<div id="html_3acc6ace10ba03a38d19f877df8de99e" style="width: 100.0%; height: 100.0%;">Juno Beach</div>`)[0];
+                popup_221cc5c7958cff73584f5e9a263c5586.setContent(html_3acc6ace10ba03a38d19f877df8de99e);
+            
+        
+
+        marker_3790339aae5bca8d4f28fdafc13445d5.bindPopup(popup_221cc5c7958cff73584f5e9a263c5586)
+        ;
+
+        
+    
+    
+            var marker_68811c6a06390e40e03a88c927f243c0 = L.marker(
+                [49.325, -0.283],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_f2c613983020e696a09fda0fa38871a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_68811c6a06390e40e03a88c927f243c0.setIcon(icon_f2c613983020e696a09fda0fa38871a3);
+        
+    
+        var popup_6ee86f3b986e50d29eca8cbc72f61abf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_181bb6a762dbf8177b069371d51677b7 = $(`<div id="html_181bb6a762dbf8177b069371d51677b7" style="width: 100.0%; height: 100.0%;">Sword Beach</div>`)[0];
+                popup_6ee86f3b986e50d29eca8cbc72f61abf.setContent(html_181bb6a762dbf8177b069371d51677b7);
+            
+        
+
+        marker_68811c6a06390e40e03a88c927f243c0.bindPopup(popup_6ee86f3b986e50d29eca8cbc72f61abf)
+        ;
+
+        
+    
+    
+            var marker_947350ac9b7eccc58b342d1fdc8d1860 = L.marker(
+                [49.409, -1.247],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_5403fea162c170db56f363e4725d621f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_947350ac9b7eccc58b342d1fdc8d1860.setIcon(icon_5403fea162c170db56f363e4725d621f);
+        
+    
+        var popup_c0853c9faa3b53e3445971a992241cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b759704a2c45471b33ca13896cecee8c = $(`<div id="html_b759704a2c45471b33ca13896cecee8c" style="width: 100.0%; height: 100.0%;">Utah Beach</div>`)[0];
+                popup_c0853c9faa3b53e3445971a992241cb7.setContent(html_b759704a2c45471b33ca13896cecee8c);
+            
+        
+
+        marker_947350ac9b7eccc58b342d1fdc8d1860.bindPopup(popup_c0853c9faa3b53e3445971a992241cb7)
+        ;
+
+        
+    
+    
+            var marker_2cc464a1873420affb79d1e45caf4a5d = L.marker(
+                [49.3711, -0.851],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_07b4cb2a2f4b4b5ef0763c0fcb791174 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2cc464a1873420affb79d1e45caf4a5d.setIcon(icon_07b4cb2a2f4b4b5ef0763c0fcb791174);
+        
+    
+        var popup_aacf0e81d685d6b4f843496e0f3ebbd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8611e05904daa5d9b4723d95d0af24f8 = $(`<div id="html_8611e05904daa5d9b4723d95d0af24f8" style="width: 100.0%; height: 100.0%;">Vierville-sur-Mer</div>`)[0];
+                popup_aacf0e81d685d6b4f843496e0f3ebbd2.setContent(html_8611e05904daa5d9b4723d95d0af24f8);
+            
+        
+
+        marker_2cc464a1873420affb79d1e45caf4a5d.bindPopup(popup_aacf0e81d685d6b4f843496e0f3ebbd2)
+        ;
+
+        
+    
+    
+            var marker_583f30c4023c6a0ae55914b1ad1b71b1 = L.marker(
+                [49.3472, -0.8572],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_b79f2d8fc5950d47a7047f62f28950d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_583f30c4023c6a0ae55914b1ad1b71b1.setIcon(icon_b79f2d8fc5950d47a7047f62f28950d6);
+        
+    
+        var popup_ea89667a275c134db3526b93f3a6a873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d925f29687e1b29f5f22ee1b2b9eff3c = $(`<div id="html_d925f29687e1b29f5f22ee1b2b9eff3c" style="width: 100.0%; height: 100.0%;">Colleville-sur-Mer</div>`)[0];
+                popup_ea89667a275c134db3526b93f3a6a873.setContent(html_d925f29687e1b29f5f22ee1b2b9eff3c);
+            
+        
+
+        marker_583f30c4023c6a0ae55914b1ad1b71b1.bindPopup(popup_ea89667a275c134db3526b93f3a6a873)
+        ;
+
+        
+    
+    
+            var marker_cd4b5732b2a19d751c1ca99d4c9e8b55 = L.marker(
+                [49.2769, -0.7039],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_f64cac6d526cc94d5aa0afb555be700c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd4b5732b2a19d751c1ca99d4c9e8b55.setIcon(icon_f64cac6d526cc94d5aa0afb555be700c);
+        
+    
+        var popup_5766ff372e6c05dabb65cfc2dd30eb26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f108bd4c05815286b9b4d872e5b5f6c0 = $(`<div id="html_f108bd4c05815286b9b4d872e5b5f6c0" style="width: 100.0%; height: 100.0%;">Bayeux</div>`)[0];
+                popup_5766ff372e6c05dabb65cfc2dd30eb26.setContent(html_f108bd4c05815286b9b4d872e5b5f6c0);
+            
+        
+
+        marker_cd4b5732b2a19d751c1ca99d4c9e8b55.bindPopup(popup_5766ff372e6c05dabb65cfc2dd30eb26)
+        ;
+
+        
+    
+    
+            var marker_2653eb4f34a9b1b9543193450b2be13d = L.marker(
+                [49.1828, -0.3709],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_abe048d232f076ffae8561d3061b4786 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2653eb4f34a9b1b9543193450b2be13d.setIcon(icon_abe048d232f076ffae8561d3061b4786);
+        
+    
+        var popup_6fa6e9edf18b27293324d4a5dd1bb6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae1ce472ef8a1a4362c4bf3f3ade333a = $(`<div id="html_ae1ce472ef8a1a4362c4bf3f3ade333a" style="width: 100.0%; height: 100.0%;">Caen</div>`)[0];
+                popup_6fa6e9edf18b27293324d4a5dd1bb6d2.setContent(html_ae1ce472ef8a1a4362c4bf3f3ade333a);
+            
+        
+
+        marker_2653eb4f34a9b1b9543193450b2be13d.bindPopup(popup_6fa6e9edf18b27293324d4a5dd1bb6d2)
+        ;
+
+        
+    
+    
+            var marker_d3c354e09b128d12e60fd31d967d7aa8 = L.marker(
+                [49.3333, -0.45],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_0f757020af43c76b6bffad22bb7d0a4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3c354e09b128d12e60fd31d967d7aa8.setIcon(icon_0f757020af43c76b6bffad22bb7d0a4c);
+        
+    
+        var popup_6e48de207e307b4fbed50eb4a22e7713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6066032e3780d25531f841fe39de882 = $(`<div id="html_a6066032e3780d25531f841fe39de882" style="width: 100.0%; height: 100.0%;">Courseulles-sur-Mer</div>`)[0];
+                popup_6e48de207e307b4fbed50eb4a22e7713.setContent(html_a6066032e3780d25531f841fe39de882);
+            
+        
+
+        marker_d3c354e09b128d12e60fd31d967d7aa8.bindPopup(popup_6e48de207e307b4fbed50eb4a22e7713)
+        ;
+
+        
+    
+    
+            var marker_6b1bbe28dfc6283666da21ca54ddf5ad = L.marker(
+                [49.2531, -0.2694],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_80a558792f661948fa23418a6fdd1082 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b1bbe28dfc6283666da21ca54ddf5ad.setIcon(icon_80a558792f661948fa23418a6fdd1082);
+        
+    
+        var popup_1e6441ef858f83d5a3073561f1b59d6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_216f4a5c981dec91d5e9c8a309729640 = $(`<div id="html_216f4a5c981dec91d5e9c8a309729640" style="width: 100.0%; height: 100.0%;">Pegasus Bridge</div>`)[0];
+                popup_1e6441ef858f83d5a3073561f1b59d6e.setContent(html_216f4a5c981dec91d5e9c8a309729640);
+            
+        
+
+        marker_6b1bbe28dfc6283666da21ca54ddf5ad.bindPopup(popup_1e6441ef858f83d5a3073561f1b59d6e)
+        ;
+
+        
+    
+    
+            var marker_d9e8e8d11c2f2bf2a536da395586e1a7 = L.marker(
+                [49.4053, -1.3078],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_91445096a4a3d3d0cc6e0138d2b58590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9e8e8d11c2f2bf2a536da395586e1a7.setIcon(icon_91445096a4a3d3d0cc6e0138d2b58590);
+        
+    
+        var popup_a7ab9e3c0b7015fb380a96f7c8a769a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8b5bf4ccaeca0a3087636672505e4ae = $(`<div id="html_f8b5bf4ccaeca0a3087636672505e4ae" style="width: 100.0%; height: 100.0%;">Sainte-Mère-Église</div>`)[0];
+                popup_a7ab9e3c0b7015fb380a96f7c8a769a2.setContent(html_f8b5bf4ccaeca0a3087636672505e4ae);
+            
+        
+
+        marker_d9e8e8d11c2f2bf2a536da395586e1a7.bindPopup(popup_a7ab9e3c0b7015fb380a96f7c8a769a2)
+        ;
+
+        
+    
+    
+            var marker_a06027e5cf926b2a0a4577177c100255 = L.marker(
+                [49.3039, -1.2422],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_83a2a01e28d8fc8b1a8c038835a25686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a06027e5cf926b2a0a4577177c100255.setIcon(icon_83a2a01e28d8fc8b1a8c038835a25686);
+        
+    
+        var popup_8ca0d181af501798474bce23ea97d358 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3112b39efa5f01fc0dff6be3b116ddf = $(`<div id="html_c3112b39efa5f01fc0dff6be3b116ddf" style="width: 100.0%; height: 100.0%;">Carentan</div>`)[0];
+                popup_8ca0d181af501798474bce23ea97d358.setContent(html_c3112b39efa5f01fc0dff6be3b116ddf);
+            
+        
+
+        marker_a06027e5cf926b2a0a4577177c100255.bindPopup(popup_8ca0d181af501798474bce23ea97d358)
+        ;
+
+        
+    
+    
+            var marker_39692fe4bfa6dd3f6ae4072c17eac3d4 = L.marker(
+                [49.3611, -0.8833],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_af1c7d69522262ba77c94a4dcb36a988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39692fe4bfa6dd3f6ae4072c17eac3d4.setIcon(icon_af1c7d69522262ba77c94a4dcb36a988);
+        
+    
+        var popup_37969f831cc0f7732514ea3ccbad4835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3168a3cf55350aee1397a1d5bf8cd9c2 = $(`<div id="html_3168a3cf55350aee1397a1d5bf8cd9c2" style="width: 100.0%; height: 100.0%;">Saint-Laurent-sur-Mer</div>`)[0];
+                popup_37969f831cc0f7732514ea3ccbad4835.setContent(html_3168a3cf55350aee1397a1d5bf8cd9c2);
+            
+        
+
+        marker_39692fe4bfa6dd3f6ae4072c17eac3d4.bindPopup(popup_37969f831cc0f7732514ea3ccbad4835)
+        ;
+
+        
+    
+    
+            var marker_27f51b0b88a3151c3d24107b4f67d7cf = L.marker(
+                [49.3531, -0.5],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_721fcadc061daa73d1e80eeb92c7a908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_27f51b0b88a3151c3d24107b4f67d7cf.setIcon(icon_721fcadc061daa73d1e80eeb92c7a908);
+        
+    
+        var popup_40322eddbccdb75d3fef3322de76128a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4fe9f604d4bd76fe47b3c747d19fa96 = $(`<div id="html_c4fe9f604d4bd76fe47b3c747d19fa96" style="width: 100.0%; height: 100.0%;">Arromanches-les-Bains</div>`)[0];
+                popup_40322eddbccdb75d3fef3322de76128a.setContent(html_c4fe9f604d4bd76fe47b3c747d19fa96);
+            
+        
+
+        marker_27f51b0b88a3151c3d24107b4f67d7cf.bindPopup(popup_40322eddbccdb75d3fef3322de76128a)
+        ;
+
+        
+    
+    
+            var marker_cb2dba1d9fc23f977dfcd87b7899980f = L.marker(
+                [49.4167, -1.2833],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_aa376c430870a41668a7c06ee332f33b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cb2dba1d9fc23f977dfcd87b7899980f.setIcon(icon_aa376c430870a41668a7c06ee332f33b);
+        
+    
+        var popup_9fcb7f85866f4f4fba57d30cd609f14a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dc693f1ca2e17f172e8179ea6ddf302 = $(`<div id="html_9dc693f1ca2e17f172e8179ea6ddf302" style="width: 100.0%; height: 100.0%;">Sainte-Marie-du-Mont</div>`)[0];
+                popup_9fcb7f85866f4f4fba57d30cd609f14a.setContent(html_9dc693f1ca2e17f172e8179ea6ddf302);
+            
+        
+
+        marker_cb2dba1d9fc23f977dfcd87b7899980f.bindPopup(popup_9fcb7f85866f4f4fba57d30cd609f14a)
+        ;
+
+        
+    
+    
+            var marker_3b4d83393aab7e19125128f0b6bc9ef6 = L.marker(
+                [49.3667, -0.5333],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_fe827cd5f4d55e5aacf393e4f483b4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b4d83393aab7e19125128f0b6bc9ef6.setIcon(icon_fe827cd5f4d55e5aacf393e4f483b4b2);
+        
+    
+        var popup_f74b6a868bde4098c3a2cb8d96f70778 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab1c752e37a8944d843c97b749a69476 = $(`<div id="html_ab1c752e37a8944d843c97b749a69476" style="width: 100.0%; height: 100.0%;">Bernières-sur-Mer</div>`)[0];
+                popup_f74b6a868bde4098c3a2cb8d96f70778.setContent(html_ab1c752e37a8944d843c97b749a69476);
+            
+        
+
+        marker_3b4d83393aab7e19125128f0b6bc9ef6.bindPopup(popup_f74b6a868bde4098c3a2cb8d96f70778)
+        ;
+
+        
+    
+    
+            var marker_a26694cc789e64f5cb31baf8e607cbc1 = L.marker(
+                [49.3167, -0.2167],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_2270dccaf2f14ad940f1392f7160baf6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a26694cc789e64f5cb31baf8e607cbc1.setIcon(icon_2270dccaf2f14ad940f1392f7160baf6);
+        
+    
+        var popup_0ce883980da6c145f71e36835119f941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04c004f81bf6caa943bde552afd41aa2 = $(`<div id="html_04c004f81bf6caa943bde552afd41aa2" style="width: 100.0%; height: 100.0%;">Hermanville-sur-Mer</div>`)[0];
+                popup_0ce883980da6c145f71e36835119f941.setContent(html_04c004f81bf6caa943bde552afd41aa2);
+            
+        
+
+        marker_a26694cc789e64f5cb31baf8e607cbc1.bindPopup(popup_0ce883980da6c145f71e36835119f941)
+        ;
+
+        
+    
+    
+            var marker_e17c6beb3135dce6387595e2410bdbea = L.marker(
+                [49.3667, -0.9333],
+                {}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            var icon_c2350b4488fa1c5e5876fb89906b5bcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e17c6beb3135dce6387595e2410bdbea.setIcon(icon_c2350b4488fa1c5e5876fb89906b5bcf);
+        
+    
+        var popup_607b35efb6205fd25280b5f010b098de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_145fc39676ba8966f3d0ec26000c6d44 = $(`<div id="html_145fc39676ba8966f3d0ec26000c6d44" style="width: 100.0%; height: 100.0%;">Formigny</div>`)[0];
+                popup_607b35efb6205fd25280b5f010b098de.setContent(html_145fc39676ba8966f3d0ec26000c6d44);
+            
+        
+
+        marker_e17c6beb3135dce6387595e2410bdbea.bindPopup(popup_607b35efb6205fd25280b5f010b098de)
+        ;
+
+        
+    
+    
+            var poly_line_09328f825691a0e097dfa5e87fc36006 = L.polyline(
+                [[49.372, -0.905], [49.3711, -0.851]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 5.0}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_09328f825691a0e097dfa5e87fc36006.bindTooltip(
+                `<div>
+                     5000 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f1109a81935e8a151de135236d78ed58 = L.polyline(
+                [[49.372, -0.905], [49.3472, -0.8572]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_f1109a81935e8a151de135236d78ed58.bindTooltip(
+                `<div>
+                     3500 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_775164e4aabd12d19c001991e687664f = L.polyline(
+                [[49.372, -0.905], [49.3611, -0.8833]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_775164e4aabd12d19c001991e687664f.bindTooltip(
+                `<div>
+                     2500 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9b8bd2a11f84447954476ac5f90b55a8 = L.polyline(
+                [[49.372, -0.905], [49.3667, -0.9333]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 4.0}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_9b8bd2a11f84447954476ac5f90b55a8.bindTooltip(
+                `<div>
+                     4000 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ffb68beae4e7c71a47bf51af2df3dff3 = L.polyline(
+                [[49.409, -1.247], [49.4167, -1.2833]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.0}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_ffb68beae4e7c71a47bf51af2df3dff3.bindTooltip(
+                `<div>
+                     3000 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a998f1c7c8dff9d342e2f634b14c72a3 = L.polyline(
+                [[49.409, -1.247], [49.4053, -1.3078]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.0}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_a998f1c7c8dff9d342e2f634b14c72a3.bindTooltip(
+                `<div>
+                     2000 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_70b48ed25ba373e7419215ae01a1ecd3 = L.polyline(
+                [[49.342, -0.607], [49.2769, -0.7039]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.5}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_70b48ed25ba373e7419215ae01a1ecd3.bindTooltip(
+                `<div>
+                     3500 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_520edf13c9972772524d396ff54900d6 = L.polyline(
+                [[49.342, -0.607], [49.3531, -0.5]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.0}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_520edf13c9972772524d396ff54900d6.bindTooltip(
+                `<div>
+                     2000 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c193f9bc66917357b9d98316cc4d309b = L.polyline(
+                [[49.365, -0.562], [49.3333, -0.45]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3.0}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_c193f9bc66917357b9d98316cc4d309b.bindTooltip(
+                `<div>
+                     3000 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_47360b03f9233aa45f85e49ad708bdb3 = L.polyline(
+                [[49.365, -0.562], [49.3667, -0.5333]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_47360b03f9233aa45f85e49ad708bdb3.bindTooltip(
+                `<div>
+                     2500 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3afc227906258b9b74a76004de6676b4 = L.polyline(
+                [[49.325, -0.283], [49.3167, -0.2167]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_3afc227906258b9b74a76004de6676b4.bindTooltip(
+                `<div>
+                     1500 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_de113c98f5dc0395efa0cb334c88b5a6 = L.polyline(
+                [[49.325, -0.283], [49.1828, -0.3709]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_bb1c303c1cda3e7a2177df25720fbaa3);
+        
+    
+            poly_line_de113c98f5dc0395efa0cb334c88b5a6.bindTooltip(
+                `<div>
+                     2500 troops
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
