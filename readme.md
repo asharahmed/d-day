@@ -12,6 +12,8 @@ The beaches on D-Day were divided into five sectors: Utah, Omaha, Gold, Juno, an
 
 Thanks to the efforts of the Allies, the D-Day landings were a success. The Allies were able to secure a foothold on the beaches and begin the liberation of France, which would eventually lead to the end of World War II and an Allied victory.
 
+To learn more about the D-Day landings, view more information on the United States National Park Service website: https://www.nps.gov/subjects/d-day/operation-overlord.htm
+
 # Usage
 
 To use the program, simply run the following command:
