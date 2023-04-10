@@ -6,7 +6,9 @@
 
 This is a simple program that visualizes the troop movement of the D-Day beach landings. It is written in Python and uses the Folium library to create the map. The program takes in a CSV file with the troop movement data and outputs an HTML file with the map.
 
-# About the Beaches
+# About the Beaches and D-Day Landings
+
+The D-Day landings were a series of military operations that took place towards the end of World War II. The landings were significant as they allowed the Allies to turn the tides and eventually win the war.
 
 The beaches on D-Day were divided into five sectors: Utah, Omaha, Gold, Juno, and Sword. The Americans landed on Utah and Omaha, the British on Gold, the Canadians on Juno, and the Free French on Sword. 
 
