@@ -1,4 +1,4 @@
-# 🪖 D-Day Beach Landing Troop Movement Visualizer
+# 🪖 D-Day Troop Movement Visualizer
 
 ![alttxt](https://github.com/asharahmed/d-day/blob/main/landing.png?raw=true)
 
